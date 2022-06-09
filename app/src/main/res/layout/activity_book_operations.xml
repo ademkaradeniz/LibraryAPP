@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainwal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/icon" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInputLayout"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Kitap Adı (Gerekli)"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:shadowColor="#56FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtAuthor"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Yazar"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:shadowColor="#56FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtPublisher"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Yayınevi"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtType"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Tür"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords|textPersonName"
+                android:shadowColor="#56FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtYearOfPublic"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Basım Yılı"
+                android:imeOptions="actionNext"
+                android:inputType="date"
+                android:shadowColor="#56FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtNumberOfPage"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_white_button"
+                android:hint="Sayfa"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:shadowColor="#56FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnBarrowBookSave"
+            android:layout_width="300dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:text="KAYDET" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="300dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:text="SİL"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wals"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#81000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txtBaslik2"
+            android:layout_width="227dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="GAZI KÜTÜPHANESI"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtBaslik3"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/txtLoginUserName"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="Kullanıcı Adı"
+            android:textColor="@color/orange"
+            android:textColorHint="#6BFFA200" />
+
+
+        <EditText
+            android:id="@+id/txtLoginPassword"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:textColor="@color/orange"
+            android:textColorHint="#6BFFA200"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/custombutton2"
+            android:text="GİRİŞ"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF6"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="411dp"
+            android:layout_height="99dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

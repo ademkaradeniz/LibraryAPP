@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/circle.xml" value="0.13" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/custom_btn.xml" value="0.2265" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/custom_white_button.xml" value="0.2625" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/custombutton.xml" value="0.2625" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/custombutton2.xml" value="0.13" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2265" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/ic_man__1_.xml" value="0.2265" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/drawable/ic_man_white.xml" value="0.2625" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/font/lobster_italic.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/font/lobster_regular.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/font/login_font.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_barrowbook_operations.xml" value="0.268" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_barrowbooks.xml" value="0.14817629179331307" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_book_operations.xml" value="0.25" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_books.xml" value="0.3" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_logins.xml" value="0.268" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_user_operations.xml" value="0.2" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/activity_users.xml" value="0.266304347826087" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/book_list.xml" value="0.14817629179331307" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/content_book_list_fragment.xml" value="0.3046875" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/custom_barrowbook_list_fragment.xml" value="0.14817629179331307" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/custom_barrowbooklistview.xml" value="0.268" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/custom_listview.xml" value="0.268" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/custom_user_list_fragment.xml" value="0.24620060790273557" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/custom_userlistview.xml" value="0.26384364820846906" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/layout/menu_kisi_list.xml" value="0.268" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/menu/exit_menu.xml" value="0.2" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/menu/login_menu.xml" value="0.1" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13" />
+        <entry key="..\:/Users/adem_/Documents/AndroidStudioProjects/LibraryAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
